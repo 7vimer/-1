@@ -61,7 +61,7 @@
 				</CollectionView>
 			</ScrollView>
 			<ScrollView Grid.Column="1">
-				<Label Text="{Binding Description}"
+				<Label Text="{Binding Desc}"
                        FontSize="Medium"
                        HorizontalTextAlignment="Center"/>
 			</ScrollView>
