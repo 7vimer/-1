@@ -57,4 +57,16 @@
 	  <None Remove="Resources\Raw\Fashion.json" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="View\AddPage.xaml.cs">
+	    <DependentUpon>AddPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\AddPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

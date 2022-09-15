@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.AddPage"
+             Title="AddPage">
+	<Grid>
+		<Label Grid.Row="0"  
+                Margin="0,0,0,0"
+                Text="Процедура:"
+                FontSize="Large"/>
+		<Entry x:Name="Procedure"
+               Margin="200,10,0,0"
+               HeightRequest="30"
+               WidthRequest="200"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"/>
+		<Label Grid.Row="0"  
+                Margin="0,45,0,0"
+                Text="Описание:"
+                FontSize="Large"/>
+		<Entry x:Name="DescriptionEntry"
+               Margin="200,55,0,0"
+               HeightRequest="30"
+               WidthRequest="200"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"/>
+		<Label Grid.Row="0"  
+                Margin="0,90,0,0"
+                Text="Цена:"
+                FontSize="Large"/>
+		<Entry x:Name="Cost"
+               Margin="200,100,0,0"
+               HeightRequest="30"
+               WidthRequest="200"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"/>
+		<Label Grid.Row="0"  
+                Margin="0,135,0,0"
+                Text="Файл фото:"
+                FontSize="Large"/>
+		<Entry x:Name="ImageEntry"
+               Margin="200,145,0,0"
+               HeightRequest="30"
+               WidthRequest="200"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"/>
+		<Button x:Name="SaveButton"
+            Clicked="SaveButtonCl"
+            WidthRequest="110"
+            HeightRequest="50"
+            Text="Сохранить"
+            HorizontalOptions="Start"
+            VerticalOptions="Start"
+            Margin="0,200,0,0"/>
+	</Grid>
+</ContentPage>
